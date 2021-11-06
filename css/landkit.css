@@ -1,0 +1,70 @@
+body {
+  background-color: #EEE;
+}
+
+p {
+  color: #8899B7!important;
+}
+
+nav .nav-link {
+  color: rgba(0,0,0,0.7);
+}
+
+.container {
+  max-width: 1000px;
+}
+
+.yoga {
+  background-image: url("../img/illustration-8.png");
+  height: 250px;
+  background-size: 30vw;
+  background-repeat: no-repeat;
+}
+
+.side {
+  display: grid;
+  grid-template-columns: var(--sizetiny) 44px fit-content(100%);
+  grid-template-rows: var(--sizehuge2) var(--sizehuge2) var(--sizehuge2) var(--sizehuge2);
+}
+
+.list0 {
+  list-style: none;
+  margin-left: -32px;
+}
+
+.item0 {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.item1 {
+  list-style: none;
+  background: url('../img/vector11.svg') no-repeat left top;
+}
+
+.item2 {
+  list-style: none;
+  background: url('../img/vector12.svg') no-repeat left top;
+}
+
+.img3 {
+  transform: perspective(10cm) rotateX(5deg) rotateY(-20deg) rotateZ(2deg) translateX(-50px) ;
+}
+
+.togrey {
+  filter: invert(60%) sepia(32%) saturate(295%) hue-rotate(177deg) brightness(96%) contrast(83%);
+}
+
+.tored {
+  filter: invert(16%) sepia(100%) saturate(7500%) hue-rotate(357deg) brightness(109%) contrast(120%);
+}
+
+.tesimg {
+  max-width: 100%;
+  max-height: auto;
+}
+
+.teslogo {
+  width: 120px;
+}
